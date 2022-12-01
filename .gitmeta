@@ -1,0 +1,8 @@
+chown -h 1000:1000 './Play time.txt'
+chmod 0777 './Play time.txt'
+/usr/bin/touch -hcmd "2022-12-01 15:21:33.3311764000 -0300" './Play time.txt'
+/usr/bin/touch -hcad "2022-12-01 15:22:54.7257480000 -0300" './Play time.txt'
+chown -h 1000:1000 './Tasks.txt'
+chmod 0777 './Tasks.txt'
+/usr/bin/touch -hcmd "2022-11-29 00:55:58.9541053000 -0300" './Tasks.txt'
+/usr/bin/touch -hcad "2022-11-29 00:56:04.0214002000 -0300" './Tasks.txt'
